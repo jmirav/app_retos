@@ -4,6 +4,6 @@ get '/' do
   erb :index
 end
 
-get '/:nombre' do
+get '/Juan' do
   erb :home
 end
