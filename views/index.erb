@@ -1,8 +1,6 @@
-  <h1>
-  <%=
-    unless params[:nombre]
-      "Hola desconocido!"
-    else
-      "Hola #{params[:nombre]}!"
-    end %>
-  </h1>
+<form class="" action="/" method="post">
+  <h1><label for="name">Hola dime a quien saludar</label></h1>
+  <br>
+  <input id="name" type="text" name="name" value="">
+  <button type="submit">¡Hola!</button>
+</form>
